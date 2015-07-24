@@ -14,8 +14,11 @@ li {
   list-style: none;
   text-align: left;
   width: 300px;
+  position: relative;
 }
-
+li p {
+  width: 300px;
+};
 button {
   margin-bottom: 2px;
   /*vertical-align: top;*/
@@ -26,7 +29,9 @@ button {
 }
 
 li button {
+  position: absolute;
   float: right;
+  right: 0;
 }
 
 .taskDone {
